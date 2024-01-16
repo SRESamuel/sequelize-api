@@ -12,8 +12,10 @@
             <div class="col-md-6">
                 <form onSubmit="return submitForm(event)">
                     <input id="id" type="hidden" value="" />
-                    <label>First Name: <input id="firstName" /></label>
-                    <label>Last Name: <input id="lastName" /></label>
+                    <label>First Name: <input id="firstName" type="text" /></label>
+                    <label>Last Name: <input id="lastName" type="text" /></label>
+                    <label>Email: <input id="email" type="email" required/></label>
+                    <label>Phone: <input id="phone" type="tel" /></label>
                     <button type="submit">Submit</button>
                 </form>
             </div>

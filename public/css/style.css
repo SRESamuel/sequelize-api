@@ -77,6 +77,18 @@ button:hover {
     text-decoration: none;
 }
 
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+
 .pull-right:hover {
     background-color: #218838;
 }
